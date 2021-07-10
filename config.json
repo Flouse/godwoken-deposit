@@ -1,0 +1,45 @@
+{
+    "ui_port": "6100",
+    "server_port": "6101",
+    "cros_server_list": [
+        "http://localhost:6100",
+        "http://127.0.0.1:6100",
+        "http://localhost:3000",
+        "http://127.0.0.1:3000"
+    ],
+    "prepare_service_port": "6102",
+    "user_private_key": "0xf5e9bac200a2eca0b0eead8a327ef3dc148ba10e192d07badad2d195f2488b94",
+    "user_ckb_devnet_addr": "ckt1qyqd3xwv870m7pq2afqng65s4fjaavmcnlrqrhak5w",
+    "user_account_init_amount": "1200000000000",
+    "miner_private_key": "0xa443ed1e456f0f23bcdf4f302f599cf77530d594ad896e84b549a04b0ea40c10",
+    "miner_ckb_devnet_addr": "ckt1qyqwfxg6pt00u67gss7y7x7urvllf6jq5e7sutwnqq",
+    "default_amount": "40200000000",
+    "default_issue_sudt_amount": "500000000000",
+    "default_issue_sudt_capacity": "100000000000",
+    "default_deposit_sudt_capacity": "40000000000",
+    "default_transfer_sudt_ammount": "15",
+    "default_sudt_id_str": "1",
+    "components": {
+        "godwoken": {
+          "chain_id": 71393,
+          "rpc": [
+            "",
+            "http://godwoken:8119",
+            "http://localhost:8119"
+            
+          ],
+          "web3_rpc": [
+            "http://godwoken-testnet-web3-rpc.ckbapp.dev",
+            "http://web3:8024",
+            "http://localhost:8024"
+          ]
+        },
+        "ckb": {
+          "rpc": [
+            "https://testnet.ckb.dev/rpc",
+            "http://ckb:8114",
+            "http://localhost:8114"
+          ]
+        }
+    }
+}

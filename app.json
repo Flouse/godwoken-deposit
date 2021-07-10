@@ -1,0 +1,13 @@
+{
+    "name": "Godwoken New Account Deposit Service",
+    "description": "Deploy on Heroku",
+    "keywords": ["Godwoken"],
+    "env": {
+        "privKey": {
+            "description": "CKB Aggron Testnet account private key, for sending out assets",
+            "value": ""
+        }
+    },
+    "repository": "https://github.com/Flouse/godwoken-deposit",
+    "stack": "container"
+}
