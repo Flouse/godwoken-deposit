@@ -1,4 +1,4 @@
-FROM ghcr.io/flouse/testnet-polyjuice-api:latest
+FROM ghcr.io/flouse/testnet-polyjuice-api:2021-07-11_1504
 
 LABEL Name=godwokendeposit Version=0.0.1
 
