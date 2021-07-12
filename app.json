@@ -2,8 +2,6 @@
     "name": "Godwoken New Account Deposit Service",
     "description": "Deploy on Heroku",
     "keywords": ["Godwoken"],
-    "env": {
-    },
     "repository": "https://github.com/Flouse/godwoken-deposit",
     "stack": "container"
 }
